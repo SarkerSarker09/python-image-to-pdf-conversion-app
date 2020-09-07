@@ -3,7 +3,7 @@ import os
 
 
 
-def makePdf(filename):	
+def makeImagetoPdf(filename):	
 	try:
 			im = Image.open(filename)
 			if im.mode == "RGBA":
@@ -22,7 +22,7 @@ def makePdf(filename):
 				print('file is not opening')								
 
 filename = r"/home/khokon/Pictures/23569861-sample-grunge-red-round-stamp.jpg" 
-makePdf(filename)
+makeImagetoPdf(filename)
    	
 
 
